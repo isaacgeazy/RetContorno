@@ -14,6 +14,12 @@ namespace RetContorno
            Console.Write("Digite a largura: ");
            largura = int.Parse(Console.ReadLine());
 
+           if(altura < 0 || altura > 10 || largura < 0 || largura > 10) {
+
+            Console.WriteLine("Apenas números de 0 a 10.");
+
+           } else {
+
            Console.WriteLine();
 
            while (n1 <= largura)
@@ -34,9 +40,8 @@ namespace RetContorno
                 n1++;
                 Console.WriteLine();
 
-
-
-                 
+            }
+            
             }
         }
     }
