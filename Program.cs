@@ -22,11 +22,11 @@ namespace RetContorno
 
            Console.WriteLine();
 
-           while (n1 <= largura)
+           while (n1 <= altura)
             {
-                while (n2 <= altura)
+                while (n2 <= largura)
                 {
-                   if (n1 == 1 || n1 == largura || n2 == 1 || n2 == altura)
+                   if (n1 == 1 || n1 == altura || n2 == 1 || n2 == largura)
                     {
                         Console.Write("* ");
                     }
